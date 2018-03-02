@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="2000"
+        android:inputType="number|numberSigned"
+        android:key="ftp_port"
+        android:selectAllOnFocus="true"
+        android:summary="Select port which will be used for ftp connection"
+        android:title="Ftp port" />
+</PreferenceScreen>

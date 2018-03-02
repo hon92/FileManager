@@ -1,0 +1,30 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="show_folders_first"
+        android:summary="Show in file list first folders followed by files"
+        android:title="Show folders first" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="hide_empty_folders"
+        android:summary="Hide folders which are empty"
+        android:title="Hide empty folders" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="show_hidden_files"
+        android:summary="Show hidden files and folders"
+        android:title="Show hidden files" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="show_image_thumbnail"
+        android:summary="Show image thumbnail instead of image icon"
+        android:title="Show image thumbnail" />
+</PreferenceScreen>

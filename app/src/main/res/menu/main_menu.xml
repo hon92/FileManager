@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/pasteItem"
+        android:icon="?attr/actionModePasteDrawable"
+        android:title="Paste"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/searchItem"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/sortItem"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Sort"
+        app:showAsAction="ifRoom">
+        <menu>
+
+            <item
+                android:id="@+id/sortByNameItem"
+                android:checkable="false"
+                android:title="Sort by name" />
+            <item
+                android:id="@+id/sortByDateItem"
+                android:title="Sort by date" />
+            <item
+                android:id="@+id/sortBySizeItem"
+                android:title="Sort by size" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/addPageItem"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Add page"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/closePageItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Close page"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/createFolderItem"
+        android:title="Create folder" />
+    <item
+        android:id="@+id/createFileItem"
+        android:title="Create file" />
+    <item
+        android:id="@+id/addBookmarkItem"
+        android:icon="@android:drawable/ic_input_get"
+        android:title="Add to bookmarks" />
+    <item
+        android:id="@+id/exitItem"
+        android:title="Exit" />
+</menu>

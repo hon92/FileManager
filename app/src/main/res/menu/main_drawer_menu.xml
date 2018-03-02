@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/rootStoragesGroup">
+        <item
+            android:id="@+id/rootStorageItem"
+            android:icon="@drawable/internal_storage"
+            android:title="Root storage" />
+
+        <item
+            android:id="@+id/internalStorageItem"
+            android:icon="@drawable/internal_storage"
+            android:title="Internal storage" />
+
+        <item
+            android:id="@+id/externalStorageItem"
+            android:icon="@drawable/external_storage"
+            android:title="External Storage" />
+    </group>
+    <group android:id="@+id/userStoragesGroup">
+        <item
+            android:id="@+id/downloadsItem"
+            android:icon="@drawable/documents_folder"
+            android:title="Downloads" />
+        <item
+            android:id="@+id/cameraItem"
+            android:icon="@drawable/pictures_folder"
+            android:title="Camera" />
+        <item
+            android:id="@+id/documentsItem"
+            android:icon="@drawable/documents_folder"
+            android:title="Documents" />
+        <item
+            android:id="@+id/musicItem"
+            android:icon="@drawable/music_folder"
+            android:title="Music" />
+        <item
+            android:id="@+id/picturesItem"
+            android:icon="@drawable/pictures_folder"
+            android:title="Pictures" />
+        <item
+            android:id="@+id/moviesItem"
+            android:icon="@drawable/movies_folder"
+            android:title="Movies" />
+    </group>
+    <group android:id="@+id/remoteStorageGroup">
+        <item
+            android:id="@+id/ftpItem"
+            android:icon="@drawable/ftp_folder"
+            android:title="FTP" />
+    </group>
+</menu>
